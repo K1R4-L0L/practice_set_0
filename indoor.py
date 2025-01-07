@@ -1,8 +1,7 @@
 def main():
-    yell = input("Yell Something: ").string().casefold()
-    lower(yell)
+    scream = input("Scream Something: ").strip().casefold()
+    lower(scream)
 
-def lower(quiet_yell):
-    print(f"Don't yell, use your indoor voice to say, {quiet_yell}")
-
-    main()
+def lower(no_scream):
+    print(f"Ur weird, don't scream in my ear, say {no_scream}")
+main()
