@@ -4,4 +4,5 @@ def main():
 
 def lower(no_scream):
     print(f"Ur weird, don't scream in my ear, say {no_scream}")
+    return
 main()

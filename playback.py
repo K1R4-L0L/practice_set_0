@@ -4,4 +4,5 @@ def main():
 
 def lower(slow):
     print(f"{slow}")
+    return
 main()
